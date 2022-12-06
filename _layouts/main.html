@@ -26,13 +26,13 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="/">blog <i class="fa-brands fa-dropbox"></i></a>
+            <a class="navbar-brand" href={{ "/" | relative_url }}>blog <i class="fa-brands fa-dropbox"></i></a>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/author/">Authors</a>
+                    <a class="nav-link" href={{ "/author" | relative_url }}>Authors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about/">About</a>
+                    <a class="nav-link" href={{ "/about" | relative_url }}>About</a>
                 </li>
             </ul>
         </div>
